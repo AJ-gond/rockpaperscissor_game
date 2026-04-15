@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#heading{
+    height: 50px;
+    width: 100%;
+    background-color: darkslategray;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    color: azure;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+#imge{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 100px 20px darkslategray;
+    background-color: rgba(255, 255, 0, 0.48);
+}
+#rock, #paper, #scissor {
+     height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+}
+#imge :hover{
+    box-shadow: inset 0px 0px 100px 20px rgba(240, 4, 4, 0.834),
+   0px 0px 20px 5px white;
+   cursor: pointer;
+}
+#rock{
+    background-color: aqua;
+}
+#paper{
+    background-color: blueviolet;
+}
+#scissor{
+    background-color: chartreuse;
+}
+#score{
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#score p{
+    text-align: center;
+    font-size: 35px;
+    background-color: aliceblue;
+    box-shadow: inset 0px 0px 10px 5px blue,0 0 10px 5px green;
+    border-radius: 40%;
+}
+#mass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    position: absolute;
+    top: 500px;
+    left: 550px;
+}
+#massege{
+    background-color: maroon;
+    color: azure;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10%;
+
+}
+#what_you_choice{
+    height: 50px;
+    width: 500px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    position: absolute;
+    left: 450px;
+    font-size: 20px;
+    
+}
