@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
     overflow-x: hidden;
 }
 html, body{
@@ -79,7 +78,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;   
-    margin-top: 153px;
+    margin-top: 140px;
 }
 #massege{
     background-color: maroon;
@@ -87,8 +86,7 @@ img{
     display: inline;
     font-size: clamp(15px, 2vw, 2vw);
     padding: 1rem;
-    border-radius: 10%;
-
+    border-radius: 5%;
 }
 #what_you_choice{
     height: 50px;
