@@ -14,8 +14,8 @@ const ranChoice=()=>{
 }
 let playGame=(userChoice)=>{
       let userData=(userChoice);
-      your_choice.innerText= `Your Choice =  ${userData}`;
-
+      your_choice.innerText= `Your Choice = ${userData}`;
+      
       let comramChoice=ranChoice();
       let compData=(comramChoice);
       com_choice.innerText =`Computer Choice = ${compData}`;
